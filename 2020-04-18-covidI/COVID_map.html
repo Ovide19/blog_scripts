@@ -1,0 +1,3569 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_e9b6cde800dd457c8645dc0fbecf9a80 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e9b6cde800dd457c8645dc0fbecf9a80" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e9b6cde800dd457c8645dc0fbecf9a80 = L.map(
+        'map_e9b6cde800dd457c8645dc0fbecf9a80', {
+        center: [46, 2],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_2feacae7999f47eaafc705ecd2210bd9 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+    
+
+            var circle_d750be71426e4fecba0e3bfb4fd4eb31 = L.circle(
+                [49.11361111, 0.996111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff6b5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20871.936349478183,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_1f91fbc3d3244e68ac64c0b2806609b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e50243845c3b4c23a918612b83d964b5 = $('<div id="html_e50243845c3b4c23a918612b83d964b5" style="width: 100.0%; height: 100.0%;">Eure: 65 victims by 2020-05-01.</div>')[0];
+                popup_1f91fbc3d3244e68ac64c0b2806609b6.setContent(html_e50243845c3b4c23a918612b83d964b5);
+            
+
+            circle_d750be71426e4fecba0e3bfb4fd4eb31.bindPopup(popup_1f91fbc3d3244e68ac64c0b2806609b6)
+            ;
+
+            
+        
+    
+
+            var circle_a19c97645d834f859559bccddc3b586b = L.circle(
+                [43.10333333, 2.414166667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff8baff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19659.12816362163,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_6132351a34764fe8bc5e566d5abfed9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_134ade3f5f8141f792ee8e239bb3be60 = $('<div id="html_134ade3f5f8141f792ee8e239bb3be60" style="width: 100.0%; height: 100.0%;">Aude: 51 victims by 2020-05-01.</div>')[0];
+                popup_6132351a34764fe8bc5e566d5abfed9c.setContent(html_134ade3f5f8141f792ee8e239bb3be60);
+            
+
+            circle_a19c97645d834f859559bccddc3b586b.bindPopup(popup_6132351a34764fe8bc5e566d5abfed9c)
+            ;
+
+            
+        
+    
+
+            var circle_8854779239034bf5aac25f9ad2da9a1f = L.circle(
+                [48.62361111, 0.128888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffbc2ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16661.02255087602,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_57456236bfd94eafb4eb8eac20a5ec13 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4c40736248874e729a452e6e91a31794 = $('<div id="html_4c40736248874e729a452e6e91a31794" style="width: 100.0%; height: 100.0%;">Orne: 28 victims by 2020-05-01.</div>')[0];
+                popup_57456236bfd94eafb4eb8eac20a5ec13.setContent(html_4c40736248874e729a452e6e91a31794);
+            
+
+            circle_8854779239034bf5aac25f9ad2da9a1f.bindPopup(popup_57456236bfd94eafb4eb8eac20a5ec13)
+            ;
+
+            
+        
+    
+
+            var circle_6997be2237834b2191624339dde877d3 = L.circle(
+                [46.09027778, 2.018888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffffcbff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8047.189562170502,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_d3e1e9cd6a9f477caee74b5b97f2260a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d02ba828ecc42f5bcf45ac3c26513e2 = $('<div id="html_5d02ba828ecc42f5bcf45ac3c26513e2" style="width: 100.0%; height: 100.0%;">Creuse: 5 victims by 2020-05-01.</div>')[0];
+                popup_d3e1e9cd6a9f477caee74b5b97f2260a.setContent(html_5d02ba828ecc42f5bcf45ac3c26513e2);
+            
+
+            circle_6997be2237834b2191624339dde877d3.bindPopup(popup_d3e1e9cd6a9f477caee74b5b97f2260a)
+            ;
+
+            
+        
+    
+
+            var circle_c6b8158429684ce6b18eeac220f0eab2 = L.circle(
+                [47.84638889, -2.81],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff4b0ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21910.133173369406,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_d50b10da37b14354a0adb26529008d52 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b8ed6a9a78a4fbb80c78525dbf9c825 = $('<div id="html_7b8ed6a9a78a4fbb80c78525dbf9c825" style="width: 100.0%; height: 100.0%;">Morbihan: 80 victims by 2020-05-01.</div>')[0];
+                popup_d50b10da37b14354a0adb26529008d52.setContent(html_7b8ed6a9a78a4fbb80c78525dbf9c825);
+            
+
+            circle_c6b8158429684ce6b18eeac220f0eab2.bindPopup(popup_d50b10da37b14354a0adb26529008d52)
+            ;
+
+            
+        
+    
+
+            var circle_758cdb251679403d8c2fc6f4b573f7e5 = L.circle(
+                [48.19666667, 6.3805555567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffdc7bff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 27276.60557678851,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_58439261bc4b41d098b19cabcf1d0e2f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cac021cf0cb14cdfb4488bef9b488907 = $('<div id="html_cac021cf0cb14cdfb4488bef9b488907" style="width: 100.0%; height: 100.0%;">Vosges: 234 victims by 2020-05-01.</div>')[0];
+                popup_58439261bc4b41d098b19cabcf1d0e2f.setContent(html_cac021cf0cb14cdfb4488bef9b488907);
+            
+
+            circle_758cdb251679403d8c2fc6f4b573f7e5.bindPopup(popup_58439261bc4b41d098b19cabcf1d0e2f)
+            ;
+
+            
+        
+    
+
+            var circle_8d745c421f6a43d282ec685907690e83 = L.circle(
+                [47.11527778, 3.504722222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15455.212266791581,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_f70f8eb7c6a84e3dbf57f744622dee57 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0950d4eb6db04178bc03cc891475c00b = $('<div id="html_0950d4eb6db04178bc03cc891475c00b" style="width: 100.0%; height: 100.0%;">Nievre: 22 victims by 2020-05-01.</div>')[0];
+                popup_f70f8eb7c6a84e3dbf57f744622dee57.setContent(html_0950d4eb6db04178bc03cc891475c00b);
+            
+
+            circle_8d745c421f6a43d282ec685907690e83.bindPopup(popup_f70f8eb7c6a84e3dbf57f744622dee57)
+            ;
+
+            
+        
+    
+
+            var circle_88207f15be2e4a55ba59745cbb8e56f3 = L.circle(
+                [45.87027778, 4.641388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fd8239ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 31288.337939413195,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_17f7615d175842d8939fa8d81e94081f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b56a965cf724ab79bd970f3c75708b8 = $('<div id="html_1b56a965cf724ab79bd970f3c75708b8" style="width: 100.0%; height: 100.0%;">Rhone: 522 victims by 2020-05-01.</div>')[0];
+                popup_17f7615d175842d8939fa8d81e94081f.setContent(html_1b56a965cf724ab79bd970f3c75708b8);
+            
+
+            circle_88207f15be2e4a55ba59745cbb8e56f3.bindPopup(popup_17f7615d175842d8939fa8d81e94081f)
+            ;
+
+            
+        
+    
+
+            var circle_ceeabd9aabc945ec9c3db654ddd65477 = L.circle(
+                [43.25666667, -0.761388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16094.379124341003,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3c50e2047cc146659e46be3f0fce30d2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e648e0d7f1d94403a45e29b8a9824924 = $('<div id="html_e648e0d7f1d94403a45e29b8a9824924" style="width: 100.0%; height: 100.0%;">Pyrenees-Atlantiques: 25 victims by 2020-05-01.</div>')[0];
+                popup_3c50e2047cc146659e46be3f0fce30d2.setContent(html_e648e0d7f1d94403a45e29b8a9824924);
+            
+
+            circle_ceeabd9aabc945ec9c3db654ddd65477.bindPopup(popup_3c50e2047cc146659e46be3f0fce30d2)
+            ;
+
+            
+        
+    
+
+            var circle_fc2b24cf47e546d6a6772be7c37610c1 = L.circle(
+                [48.52222222, 2.243055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fea546ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30201.27355638707,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_96008efc50f6416782ba18100bef8025 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4704199e55db4d3ea6b8a40279df2dad = $('<div id="html_4704199e55db4d3ea6b8a40279df2dad" style="width: 100.0%; height: 100.0%;">Essonne: 420 victims by 2020-05-01.</div>')[0];
+                popup_96008efc50f6416782ba18100bef8025.setContent(html_4704199e55db4d3ea6b8a40279df2dad);
+            
+
+            circle_fc2b24cf47e546d6a6772be7c37610c1.bindPopup(popup_96008efc50f6416782ba18100bef8025)
+            ;
+
+            
+        
+    
+
+            var circle_f0b9b8ff9cfb4953b439a0097608c9bf = L.circle(
+                [47.83972222, 3.564444444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b6ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20635.67192522546,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_bb38917eea104f53a9cdf41e48ad974d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a6b80c32e0074c2d89c2b2497d9a61c9 = $('<div id="html_a6b80c32e0074c2d89c2b2497d9a61c9" style="width: 100.0%; height: 100.0%;">Yonne: 62 victims by 2020-05-01.</div>')[0];
+                popup_bb38917eea104f53a9cdf41e48ad974d.setContent(html_a6b80c32e0074c2d89c2b2497d9a61c9);
+            
+
+            circle_f0b9b8ff9cfb4953b439a0097608c9bf.bindPopup(popup_bb38917eea104f53a9cdf41e48ad974d)
+            ;
+
+            
+        
+    
+
+            var circle_764710de4f004352b24e2858badd4e66 = L.circle(
+                [48.9175, 2.478055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c70623ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33678.90007121163,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_175bf35675bd4fb592066b0c2b463f1f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_afd3d1d05bf34318b1a71f32dd6d5bad = $('<div id="html_afd3d1d05bf34318b1a71f32dd6d5bad" style="width: 100.0%; height: 100.0%;">Seine-Saint-Denis: 842 victims by 2020-05-01.</div>')[0];
+                popup_175bf35675bd4fb592066b0c2b463f1f.setContent(html_afd3d1d05bf34318b1a71f32dd6d5bad);
+            
+
+            circle_764710de4f004352b24e2858badd4e66.bindPopup(popup_175bf35675bd4fb592066b0c2b463f1f)
+            ;
+
+            
+        
+    
+
+            var circle_92794813bad34eda91a35fd3726c36a1 = L.circle(
+                [48.84722222, 2.245833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#be0025ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33848.20988426251,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_4034d8b059fe44c79e834e615124fc60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6600bd2fead647fb9d7f3b3aa295f218 = $('<div id="html_6600bd2fead647fb9d7f3b3aa295f218" style="width: 100.0%; height: 100.0%;">Hauts-de-Seine: 871 victims by 2020-05-01.</div>')[0];
+                popup_4034d8b059fe44c79e834e615124fc60.setContent(html_6600bd2fead647fb9d7f3b3aa295f218);
+            
+
+            circle_92794813bad34eda91a35fd3726c36a1.bindPopup(popup_4034d8b059fe44c79e834e615124fc60)
+            ;
+
+            
+        
+    
+
+            var circle_4d8f5fbd84a04efc91f9abd02cc8479c = L.circle(
+                [48.78694444, 6.165],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fece6aff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 28279.95905409926,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_5f91d56d23af47e2bd09e0daac91f2dc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0a4e2720a51140a09e8bb7d174a91f82 = $('<div id="html_0a4e2720a51140a09e8bb7d174a91f82" style="width: 100.0%; height: 100.0%;">Meurthe-et-Moselle: 286 victims by 2020-05-01.</div>')[0];
+                popup_5f91d56d23af47e2bd09e0daac91f2dc.setContent(html_0a4e2720a51140a09e8bb7d174a91f82);
+            
+
+            circle_4d8f5fbd84a04efc91f9abd02cc8479c.bindPopup(popup_5f91d56d23af47e2bd09e0daac91f2dc)
+            ;
+
+            
+        
+    
+
+            var circle_73770ac85d34464896f2d6cd09f8efbf = L.circle(
+                [48.7775, 2.468888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9d0026ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 34234.7156979269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_104d7eb6032a43b3bed25067084a8578 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c7e79472b4647fabaa9e4d5534136b4 = $('<div id="html_2c7e79472b4647fabaa9e4d5534136b4" style="width: 100.0%; height: 100.0%;">Val-de-Marne: 941 victims by 2020-05-01.</div>')[0];
+                popup_104d7eb6032a43b3bed25067084a8578.setContent(html_2c7e79472b4647fabaa9e4d5534136b4);
+            
+
+            circle_73770ac85d34464896f2d6cd09f8efbf.bindPopup(popup_104d7eb6032a43b3bed25067084a8578)
+            ;
+
+            
+        
+    
+
+            var circle_62b937de292a4699ab0da6832158d236 = L.circle(
+                [44.82527778, -0.575277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffefa3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23767.950955531822,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3adefaff857e43cbbe63e8f2c9137119 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_063f7e28eb624242a6e81381da8c501a = $('<div id="html_063f7e28eb624242a6e81381da8c501a" style="width: 100.0%; height: 100.0%;">Gironde: 116 victims by 2020-05-01.</div>')[0];
+                popup_3adefaff857e43cbbe63e8f2c9137119.setContent(html_063f7e28eb624242a6e81381da8c501a);
+            
+
+            circle_62b937de292a4699ab0da6832158d236.bindPopup(popup_3adefaff857e43cbbe63e8f2c9137119)
+            ;
+
+            
+        
+    
+
+            var circle_fc0bd20e90b544e3b77eaea452bac585 = L.circle(
+                [43.78527778, 2.166111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffdc6ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14722.194895832201,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_ffddf8af437f485e8abf0d89d62d452f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c004c3da11f411cae3c01815f4a5e0f = $('<div id="html_9c004c3da11f411cae3c01815f4a5e0f" style="width: 100.0%; height: 100.0%;">Tarn: 19 victims by 2020-05-01.</div>')[0];
+                popup_ffddf8af437f485e8abf0d89d62d452f.setContent(html_9c004c3da11f411cae3c01815f4a5e0f);
+            
+
+            circle_fc0bd20e90b544e3b77eaea452bac585.bindPopup(popup_ffddf8af437f485e8abf0d89d62d452f)
+            ;
+
+            
+        
+    
+
+            var circle_8493b911fd9645bb96d696bb69f3c15a = L.circle(
+                [44.08583333, 1.281944444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffffcbff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6931.471805599453,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_1a1de58b7d264d41a0925f8c9e330da8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44402c219c454673a72c6b46ed342094 = $('<div id="html_44402c219c454673a72c6b46ed342094" style="width: 100.0%; height: 100.0%;">Tarn-et-Garonne: 4 victims by 2020-05-01.</div>')[0];
+                popup_1a1de58b7d264d41a0925f8c9e330da8.setContent(html_44402c219c454673a72c6b46ed342094);
+            
+
+            circle_8493b911fd9645bb96d696bb69f3c15a.bindPopup(popup_1a1de58b7d264d41a0925f8c9e330da8)
+            ;
+
+            
+        
+    
+
+            var circle_eccda6924dfa4e66855a95ca312381e7 = L.circle(
+                [48.98944444, 5.37408],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff3aeff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22213.256282451584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_e33cb8f400d94fa39c25d03cd91b5924 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_480fae71dacc4101b7c209060a37f5a2 = $('<div id="html_480fae71dacc4101b7c209060a37f5a2" style="width: 100.0%; height: 100.0%;">Meuse: 85 victims by 2020-05-01.</div>')[0];
+                popup_e33cb8f400d94fa39c25d03cd91b5924.setContent(html_480fae71dacc4101b7c209060a37f5a2);
+            
+
+            circle_eccda6924dfa4e66855a95ca312381e7.bindPopup(popup_e33cb8f400d94fa39c25d03cd91b5924)
+            ;
+
+            
+        
+    
+
+            var circle_f161ec5001634f6689c1875201348e93 = L.circle(
+                [49.61555556, 4.640833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffabfff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18317.808230648232,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_09223403e10f441c884b26446eef4d43 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e13aad70161141bbb3968f0a9be90a22 = $('<div id="html_e13aad70161141bbb3968f0a9be90a22" style="width: 100.0%; height: 100.0%;">Ardennes: 39 victims by 2020-05-01.</div>')[0];
+                popup_09223403e10f441c884b26446eef4d43.setContent(html_e13aad70161141bbb3968f0a9be90a22);
+            
+
+            circle_f161ec5001634f6689c1875201348e93.bindPopup(popup_09223403e10f441c884b26446eef4d43)
+            ;
+
+            
+        
+    
+
+            var circle_c36eaf3c856e4fe99c8d96bc20e59d48 = L.circle(
+                [44.62416667, 1.604722222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11512.925464970229,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_9e60cb05228d49018fb69534816a83a3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8ee7603ee7ed4ae5b6c617e23d75bd07 = $('<div id="html_8ee7603ee7ed4ae5b6c617e23d75bd07" style="width: 100.0%; height: 100.0%;">Lot: 10 victims by 2020-05-01.</div>')[0];
+                popup_9e60cb05228d49018fb69534816a83a3.setContent(html_8ee7603ee7ed4ae5b6c617e23d75bd07);
+            
+
+            circle_c36eaf3c856e4fe99c8d96bc20e59d48.bindPopup(popup_9e60cb05228d49018fb69534816a83a3)
+            ;
+
+            
+        
+    
+
+            var circle_b658e56a90f745f296725531b4e61371 = L.circle(
+                [45.35694444, 1.876944444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffbc2ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16661.02255087602,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_2d62f708120947589f0d395e6ec8f885 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_21bbdef102fb449190e7c885d769890b = $('<div id="html_21bbdef102fb449190e7c885d769890b" style="width: 100.0%; height: 100.0%;">Correze: 28 victims by 2020-05-01.</div>')[0];
+                popup_2d62f708120947589f0d395e6ec8f885.setContent(html_21bbdef102fb449190e7c885d769890b);
+            
+
+            circle_b658e56a90f745f296725531b4e61371.bindPopup(popup_2d62f708120947589f0d395e6ec8f885)
+            ;
+
+            
+        
+    
+
+            var circle_58c794364410463caee08f5853be6fdb = L.circle(
+                [43.96555556, -0.783888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11512.925464970229,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_62e69e1ecf974c86b2dacb021c21c720 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1338aae69dd34f6c88dbf5411b25dbb4 = $('<div id="html_1338aae69dd34f6c88dbf5411b25dbb4" style="width: 100.0%; height: 100.0%;">Landes: 10 victims by 2020-05-01.</div>')[0];
+                popup_62e69e1ecf974c86b2dacb021c21c720.setContent(html_1338aae69dd34f6c88dbf5411b25dbb4);
+            
+
+            circle_58c794364410463caee08f5853be6fdb.bindPopup(popup_62e69e1ecf974c86b2dacb021c21c720)
+            ;
+
+            
+        
+    
+
+            var circle_22d6e9a723804529bed453dbbcf61fea = L.circle(
+                [43.99388889, 5.186111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffbc1ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17169.936022425733,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_316dc38f08f04c34855c58c13c004406 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_08b6e2e7d4be4a2fb8a68615e0809267 = $('<div id="html_08b6e2e7d4be4a2fb8a68615e0809267" style="width: 100.0%; height: 100.0%;">Vendee: 31 victims by 2020-05-01.</div>')[0];
+                popup_316dc38f08f04c34855c58c13c004406.setContent(html_08b6e2e7d4be4a2fb8a68615e0809267);
+            
+
+            circle_22d6e9a723804529bed453dbbcf61fea.bindPopup(popup_316dc38f08f04c34855c58c13c004406)
+            ;
+
+            
+        
+    
+
+            var circle_0a312399daad48659f6ba106a8c0cdc4 = L.circle(
+                [46.72833333, 5.697777778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff9bcff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19143.206982445474,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3481c857d385427f8483753dcad4f1f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_34d6f040af314e9092998e8ddb19d32c = $('<div id="html_34d6f040af314e9092998e8ddb19d32c" style="width: 100.0%; height: 100.0%;">Jura: 46 victims by 2020-05-01.</div>')[0];
+                popup_3481c857d385427f8483753dcad4f1f8.setContent(html_34d6f040af314e9092998e8ddb19d32c);
+            
+
+            circle_0a312399daad48659f6ba106a8c0cdc4.bindPopup(popup_3481c857d385427f8483753dcad4f1f8)
+            ;
+
+            
+        
+    
+
+            var circle_ce2eefdab03c4848932da23328b8111d = L.circle(
+                [49.03722222, 6.663333333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f43b25ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32528.920300641144,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a2fafe7b764747da9f2ecc604a86631c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad3aecbcef3d413b889bb701e5821a3b = $('<div id="html_ad3aecbcef3d413b889bb701e5821a3b" style="width: 100.0%; height: 100.0%;">Moselle: 669 victims by 2020-05-01.</div>')[0];
+                popup_a2fafe7b764747da9f2ecc604a86631c.setContent(html_ad3aecbcef3d413b889bb701e5821a3b);
+            
+
+            circle_ce2eefdab03c4848932da23328b8111d.bindPopup(popup_a2fafe7b764747da9f2ecc604a86631c)
+            ;
+
+            
+        
+    
+
+            var circle_07a0de6030c94bd3a9ff05a57e8942dc = L.circle(
+                [48.30444444, 4.161666667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffefa5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23592.494356475472,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_46aba08c258b4157a144a9264c9cc670 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7b2ff8d875e46b093f75b6c5469f4ca = $('<div id="html_a7b2ff8d875e46b093f75b6c5469f4ca" style="width: 100.0%; height: 100.0%;">Aube: 112 victims by 2020-05-01.</div>')[0];
+                popup_46aba08c258b4157a144a9264c9cc670.setContent(html_a7b2ff8d875e46b093f75b6c5469f4ca);
+            
+
+            circle_07a0de6030c94bd3a9ff05a57e8942dc.bindPopup(popup_46aba08c258b4157a144a9264c9cc670)
+            ;
+
+            
+        
+    
+
+            var circle_79d43d7914b34420b2f50a65198c5ffa = L.circle(
+                [49.08277778, 2.131111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fd6731ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 31771.850203986753,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a8a18b08dc2347a4926756994ff6b82b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c0c7a7887ef46fb981626387362aee6 = $('<div id="html_2c0c7a7887ef46fb981626387362aee6" style="width: 100.0%; height: 100.0%;">Val-d-Oise: 575 victims by 2020-05-01.</div>')[0];
+                popup_a8a18b08dc2347a4926756994ff6b82b.setContent(html_2c0c7a7887ef46fb981626387362aee6);
+            
+
+            circle_79d43d7914b34420b2f50a65198c5ffa.bindPopup(popup_a8a18b08dc2347a4926756994ff6b82b)
+            ;
+
+            
+        
+    
+
+            var circle_ddd15d616dc74799bdbb12ac6cdf30c7 = L.circle(
+                [48.1022, 5.18945],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b8ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20302.215052732096,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_414be9e73193490c8bc0ed56567eb7dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6ee3d909f33647e2ab11e8f0b7c65137 = $('<div id="html_6ee3d909f33647e2ab11e8f0b7c65137" style="width: 100.0%; height: 100.0%;">Haute-Marne: 58 victims by 2020-05-01.</div>')[0];
+                popup_414be9e73193490c8bc0ed56567eb7dd.setContent(html_6ee3d909f33647e2ab11e8f0b7c65137);
+            
+
+            circle_ddd15d616dc74799bdbb12ac6cdf30c7.bindPopup(popup_414be9e73193490c8bc0ed56567eb7dd)
+            ;
+
+            
+        
+    
+
+            var circle_feeafe12c60044bbb0073e72913ce2e3 = L.circle(
+                [47.85861111, 7.274166667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f03323ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32668.94418966672,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_c70aa252d42f407091e25ea7c30d7fd1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffddadeb87a841b48188f1eb0a1bf0e0 = $('<div id="html_ffddadeb87a841b48188f1eb0a1bf0e0" style="width: 100.0%; height: 100.0%;">Haut-Rhin: 688 victims by 2020-05-01.</div>')[0];
+                popup_c70aa252d42f407091e25ea7c30d7fd1.setContent(html_ffddadeb87a841b48188f1eb0a1bf0e0);
+            
+
+            circle_feeafe12c60044bbb0073e72913ce2e3.bindPopup(popup_c70aa252d42f407091e25ea7c30d7fd1)
+            ;
+
+            
+        
+    
+
+            var circle_c1d2dc9c47124cd3a8782b9f71e064bc = L.circle(
+                [45.10416667, 0.741388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10986.122886681098,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_104832036da14228a3b0aae2d6b92e29 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f4080aebdaa8465cb596436f0f26b6fd = $('<div id="html_f4080aebdaa8465cb596436f0f26b6fd" style="width: 100.0%; height: 100.0%;">Dordogne: 9 victims by 2020-05-01.</div>')[0];
+                popup_104832036da14228a3b0aae2d6b92e29.setContent(html_f4080aebdaa8465cb596436f0f26b6fd);
+            
+
+            circle_c1d2dc9c47124cd3a8782b9f71e064bc.bindPopup(popup_104832036da14228a3b0aae2d6b92e29)
+            ;
+
+            
+        
+    
+
+            var circle_71c3421ffee14e0b96e1a48cad7a100e = L.circle(
+                [44.3675, 0.460277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffecaff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9729.550745276567,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_6c82f1d2ada64861bd4f5313367ccfb8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6461d8eec3cf48fd8921993743f073d3 = $('<div id="html_6461d8eec3cf48fd8921993743f073d3" style="width: 100.0%; height: 100.0%;">Lot-et-Garonne: 7 victims by 2020-05-01.</div>')[0];
+                popup_6c82f1d2ada64861bd4f5313367ccfb8.setContent(html_6461d8eec3cf48fd8921993743f073d3);
+            
+
+            circle_71c3421ffee14e0b96e1a48cad7a100e.bindPopup(popup_6c82f1d2ada64861bd4f5313367ccfb8)
+            ;
+
+            
+        
+    
+
+            var circle_ec7e762dd7a945e9bf1da149c3f0bd1c = L.circle(
+                [48.9405, 4.24555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffdf82ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26829.880075109257,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_f847639f54e643b5929d4d16485950b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0b6124800294d4cb84c7e00b3745e32 = $('<div id="html_f0b6124800294d4cb84c7e00b3745e32" style="width: 100.0%; height: 100.0%;">Marne: 214 victims by 2020-05-01.</div>')[0];
+                popup_f847639f54e643b5929d4d16485950b6.setContent(html_f0b6124800294d4cb84c7e00b3745e32);
+            
+
+            circle_ec7e762dd7a945e9bf1da149c3f0bd1c.bindPopup(popup_f847639f54e643b5929d4d16485950b6)
+            ;
+
+            
+        
+    
+
+            var circle_3ea4db16fd3746bca9c7fd4bc85492dc = L.circle(
+                [47.99444444, 0.222222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff8b9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20036.665926162357,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_b72d8940f85041feb1531843d72a99e0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2ede94e686234b5ebfa2272b4e6d13ef = $('<div id="html_2ede94e686234b5ebfa2272b4e6d13ef" style="width: 100.0%; height: 100.0%;">Sarthe: 55 victims by 2020-05-01.</div>')[0];
+                popup_b72d8940f85041feb1531843d72a99e0.setContent(html_2ede94e686234b5ebfa2272b4e6d13ef);
+            
+
+            circle_3ea4db16fd3746bca9c7fd4bc85492dc.bindPopup(popup_b72d8940f85041feb1531843d72a99e0)
+            ;
+
+            
+        
+    
+
+            var circle_b9580ab8648440398536884bfe0c0e87 = L.circle(
+                [43.54333333, 5.086388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fea747ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30129.32986912657,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_eb06ba8c6a7b424d9374d32f574d47e6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf9d7f2debc3482baf419598561c6ea7 = $('<div id="html_bf9d7f2debc3482baf419598561c6ea7" style="width: 100.0%; height: 100.0%;">Bouches-du-Rhone: 414 victims by 2020-05-01.</div>')[0];
+                popup_eb06ba8c6a7b424d9374d32f574d47e6.setContent(html_bf9d7f2debc3482baf419598561c6ea7);
+            
+
+            circle_b9580ab8648440398536884bfe0c0e87.bindPopup(popup_eb06ba8c6a7b424d9374d32f574d47e6)
+            ;
+
+            
+        
+    
+
+            var circle_e5babdb221044bf3bc89ff82c95fdf90 = L.circle(
+                [44.51722222, 3.500277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffffccff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_70645fff2bf94221ab48b9d360080eca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_48130c9182c74227b227c136c7939de0 = $('<div id="html_48130c9182c74227b227c136c7939de0" style="width: 100.0%; height: 100.0%;">Lozere: 1 victims by 2020-05-01.</div>')[0];
+                popup_70645fff2bf94221ab48b9d360080eca.setContent(html_48130c9182c74227b227c136c7939de0);
+            
+
+            circle_e5babdb221044bf3bc89ff82c95fdf90.bindPopup(popup_70645fff2bf94221ab48b9d360080eca)
+            ;
+
+            
+        
+    
+
+            var circle_cf045a63f29e40a4beca935626156793 = L.circle(
+                [41.86361111, 8.988055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff9bdff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18688.348091416843,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3d217b1688be4e59850cbd903a0f4bc4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c473d4dfc53f4bfd9e01a4cbcd18aef3 = $('<div id="html_c473d4dfc53f4bfd9e01a4cbcd18aef3" style="width: 100.0%; height: 100.0%;">Corse-du-Sud: 42 victims by 2020-05-01.</div>')[0];
+                popup_3d217b1688be4e59850cbd903a0f4bc4.setContent(html_c473d4dfc53f4bfd9e01a4cbcd18aef3);
+            
+
+            circle_cf045a63f29e40a4beca935626156793.bindPopup(popup_3d217b1688be4e59850cbd903a0f4bc4)
+            ;
+
+            
+        
+    
+
+            var circle_8978e7d5d7814783b8b741ece2e4a56b = L.circle(
+                [47.06472222, 2.491111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b7ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20471.722811110503,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_1d548d91b69146bf973846d06ff1079e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_644f09fdc24d4b0aa9d3079cd0becbca = $('<div id="html_644f09fdc24d4b0aa9d3079cd0becbca" style="width: 100.0%; height: 100.0%;">Cher: 60 victims by 2020-05-01.</div>')[0];
+                popup_1d548d91b69146bf973846d06ff1079e.setContent(html_644f09fdc24d4b0aa9d3079cd0becbca);
+            
+
+            circle_8978e7d5d7814783b8b741ece2e4a56b.bindPopup(popup_1d548d91b69146bf973846d06ff1079e)
+            ;
+
+            
+        
+    
+
+            var circle_bfde79ec1f21460888d1a3a20eb10618 = L.circle(
+                [45.12805556, 3.806388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec8ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11989.476363991853,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_c630e5ef61a8490b9fd8c188aca625dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d4aa92398254ed7b996b794aa1cd826 = $('<div id="html_4d4aa92398254ed7b996b794aa1cd826" style="width: 100.0%; height: 100.0%;">Haute-Loire: 11 victims by 2020-05-01.</div>')[0];
+                popup_c630e5ef61a8490b9fd8c188aca625dd.setContent(html_4d4aa92398254ed7b996b794aa1cd826);
+            
+
+            circle_bfde79ec1f21460888d1a3a20eb10618.bindPopup(popup_c630e5ef61a8490b9fd8c188aca625dd)
+            ;
+
+            
+        
+    
+
+            var circle_8375bc0bc12a428f9dbff07da039b122 = L.circle(
+                [48.67083333, 7.551388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fd7e37ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 31364.385032730836,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_eb338584382e4541921e0be900efff97 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_421d8d0cd0404bbbbe39dea464677fe3 = $('<div id="html_421d8d0cd0404bbbbe39dea464677fe3" style="width: 100.0%; height: 100.0%;">Bas-Rhin: 530 victims by 2020-05-01.</div>')[0];
+                popup_eb338584382e4541921e0be900efff97.setContent(html_421d8d0cd0404bbbbe39dea464677fe3);
+            
+
+            circle_8375bc0bc12a428f9dbff07da039b122.bindPopup(popup_eb338584382e4541921e0be900efff97)
+            ;
+
+            
+        
+    
+
+            var circle_a4573e0b43674e1f98e400a220ca83d2 = L.circle(
+                [50.44722222, 3.220555556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fe9e43ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30456.54941038849,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_348d8539301f4a79a2e3ab7be0b7e8b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33c737cfd35b4b0aa92de09074f1c57c = $('<div id="html_33c737cfd35b4b0aa92de09074f1c57c" style="width: 100.0%; height: 100.0%;">Nord: 442 victims by 2020-05-01.</div>')[0];
+                popup_348d8539301f4a79a2e3ab7be0b7e8b6.setContent(html_33c737cfd35b4b0aa92de09074f1c57c);
+            
+
+            circle_a4573e0b43674e1f98e400a220ca83d2.bindPopup(popup_348d8539301f4a79a2e3ab7be0b7e8b6)
+            ;
+
+            
+        
+    
+
+            var circle_94e48e02cb924e4ea719b393f207ef22 = L.circle(
+                [45.71805556, 0.201666667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec8ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11989.476363991853,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a8364085b9844b72ba277cd2cdd9613c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2e381d1fc30240bbbbcb8175195d2495 = $('<div id="html_2e381d1fc30240bbbbcb8175195d2495" style="width: 100.0%; height: 100.0%;">Charente: 11 victims by 2020-05-01.</div>')[0];
+                popup_a8364085b9844b72ba277cd2cdd9613c.setContent(html_2e381d1fc30240bbbbcb8175195d2495);
+            
+
+            circle_94e48e02cb924e4ea719b393f207ef22.bindPopup(popup_a8364085b9844b72ba277cd2cdd9613c)
+            ;
+
+            
+        
+    
+
+            var circle_4516652b4be04fcb87dc00ecb5a20e45 = L.circle(
+                [49.09972222, -0.363611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b7ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20471.722811110503,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a76c0da1ad47492cb6bc7fa6758468b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e684d46085574af081568d88af0b5662 = $('<div id="html_e684d46085574af081568d88af0b5662" style="width: 100.0%; height: 100.0%;">Calvados: 60 victims by 2020-05-01.</div>')[0];
+                popup_a76c0da1ad47492cb6bc7fa6758468b4.setContent(html_e684d46085574af081568d88af0b5662);
+            
+
+            circle_4516652b4be04fcb87dc00ecb5a20e45.bindPopup(popup_a76c0da1ad47492cb6bc7fa6758468b4)
+            ;
+
+            
+        
+    
+
+            var circle_518727a7cd264884ae76e074dae05cb7 = L.circle(
+                [42.6, 2.522222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffdc5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14978.661367769955,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_1f49a651341948e897b5b0e08ddc8fcd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae4fba99ed1b485180de72f4d0c90527 = $('<div id="html_ae4fba99ed1b485180de72f4d0c90527" style="width: 100.0%; height: 100.0%;">Hautes-Pyrenees: 20 victims by 2020-05-01.</div>')[0];
+                popup_1f49a651341948e897b5b0e08ddc8fcd.setContent(html_ae4fba99ed1b485180de72f4d0c90527);
+            
+
+            circle_518727a7cd264884ae76e074dae05cb7.bindPopup(popup_1f49a651341948e897b5b0e08ddc8fcd)
+            ;
+
+            
+        
+    
+
+            var circle_7095c9cbd9194985b797c3b534b12235 = L.circle(
+                [49.41027778, 2.425277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#febf5aff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 29040.71244990222,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_4b57f93dcc474990ade130426f1d9091 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49f1b44dbd91486c81e691b689daff0d = $('<div id="html_49f1b44dbd91486c81e691b689daff0d" style="width: 100.0%; height: 100.0%;">Oise: 333 victims by 2020-05-01.</div>')[0];
+                popup_4b57f93dcc474990ade130426f1d9091.setContent(html_49f1b44dbd91486c81e691b689daff0d);
+            
+
+            circle_7095c9cbd9194985b797c3b534b12235.bindPopup(popup_4b57f93dcc474990ade130426f1d9091)
+            ;
+
+            
+        
+    
+
+            var circle_552aa097565e42d69a3794d333fbe605 = L.circle(
+                [44.66361111, 6.263055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10397.207708399179,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_b6d433c810ca4f3e8c86a2a91149f071 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f31c836180e047fca99942274956e257 = $('<div id="html_f31c836180e047fca99942274956e257" style="width: 100.0%; height: 100.0%;">Hautes-Alpes: 8 victims by 2020-05-01.</div>')[0];
+                popup_b6d433c810ca4f3e8c86a2a91149f071.setContent(html_f31c836180e047fca99942274956e257);
+            
+
+            circle_552aa097565e42d69a3794d333fbe605.bindPopup(popup_b6d433c810ca4f3e8c86a2a91149f071)
+            ;
+
+            
+        
+    
+
+            var circle_70d095ebe594409fabf3a4bb85a77e38 = L.circle(
+                [47.64111111, 6.086111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff6b4ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21170.532522986297,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_b90c09e9cb924a4c8ba921f201abf634 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0940475fda54496eaf8bb6fcdaee6e43 = $('<div id="html_0940475fda54496eaf8bb6fcdaee6e43" style="width: 100.0%; height: 100.0%;">Haute-Saone: 69 victims by 2020-05-01.</div>')[0];
+                popup_b90c09e9cb924a4c8ba921f201abf634.setContent(html_0940475fda54496eaf8bb6fcdaee6e43);
+            
+
+            circle_70d095ebe594409fabf3a4bb85a77e38.bindPopup(popup_b90c09e9cb924a4c8ba921f201abf634)
+            ;
+
+            
+        
+    
+
+            var circle_4db378edf0384cfa93dbb1df4c92f39d = L.circle(
+                [47.16527778, 6.361666667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffeea3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23853.423122328324,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_e98173b8680f4b3bb9434c74b4e9facf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c7b94cc53ff543c1ba59abce1f071414 = $('<div id="html_c7b94cc53ff543c1ba59abce1f071414" style="width: 100.0%; height: 100.0%;">Doubs: 118 victims by 2020-05-01.</div>')[0];
+                popup_e98173b8680f4b3bb9434c74b4e9facf.setContent(html_c7b94cc53ff543c1ba59abce1f071414);
+            
+
+            circle_4db378edf0384cfa93dbb1df4c92f39d.bindPopup(popup_e98173b8680f4b3bb9434c74b4e9facf)
+            ;
+
+            
+        
+    
+
+            var circle_ff961d420ef0401a80440ddd6db73e17 = L.circle(
+                [45.72583333, 3.140833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffac0ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17776.740307447068,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_9c190b0a75004460ac317ffce8cbe359 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_696111ef95334dd2a26009395edde2b3 = $('<div id="html_696111ef95334dd2a26009395edde2b3" style="width: 100.0%; height: 100.0%;">Puy-de-Dome: 35 victims by 2020-05-01.</div>')[0];
+                popup_9c190b0a75004460ac317ffce8cbe359.setContent(html_696111ef95334dd2a26009395edde2b3);
+            
+
+            circle_ff961d420ef0401a80440ddd6db73e17.bindPopup(popup_9c190b0a75004460ac317ffce8cbe359)
+            ;
+
+            
+        
+    
+
+            var circle_1dc803809b1c4e7b87590b1a08130a37 = L.circle(
+                [46.64472222, 4.542222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffe895ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25344.52101110116,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3e69565be3744685997a49d56d343ec1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cf87bd3113284fe6b93b4148926fe5d2 = $('<div id="html_cf87bd3113284fe6b93b4148926fe5d2" style="width: 100.0%; height: 100.0%;">Saone-et-Loire: 159 victims by 2020-05-01.</div>')[0];
+                popup_3e69565be3744685997a49d56d343ec1.setContent(html_cf87bd3113284fe6b93b4148926fe5d2);
+            
+
+            circle_1dc803809b1c4e7b87590b1a08130a37.bindPopup(popup_3e69565be3744685997a49d56d343ec1)
+            ;
+
+            
+        
+    
+
+            var circle_6d900c9df9254422985f799fe2e468b7 = L.circle(
+                [47.36138889, -1.682222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffeda0ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 24141.568686511506,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_917c03d402104029bc06ec579746560c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14e1ffa1b83746d0a9e9e9a6ede13d11 = $('<div id="html_14e1ffa1b83746d0a9e9e9a6ede13d11" style="width: 100.0%; height: 100.0%;">Loire-Atlantique: 125 victims by 2020-05-01.</div>')[0];
+                popup_917c03d402104029bc06ec579746560c.setContent(html_14e1ffa1b83746d0a9e9e9a6ede13d11);
+            
+
+            circle_6d900c9df9254422985f799fe2e468b7.bindPopup(popup_917c03d402104029bc06ec579746560c)
+            ;
+
+            
+        
+    
+
+            var circle_7386a4143ca8466886a44d6f59cbedbb = L.circle(
+                [50.49361111, 2.288611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffdd7eff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 27102.67499636143,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_cbd1b11b38d44101a97e2191e5028c5a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_21e3245e28494c33af3a739cc7ce02b3 = $('<div id="html_21e3245e28494c33af3a739cc7ce02b3" style="width: 100.0%; height: 100.0%;">Pas-de-Calais: 226 victims by 2020-05-01.</div>')[0];
+                popup_cbd1b11b38d44101a97e2191e5028c5a.setContent(html_21e3245e28494c33af3a739cc7ce02b3);
+            
+
+            circle_7386a4143ca8466886a44d6f59cbedbb.bindPopup(popup_cbd1b11b38d44101a97e2191e5028c5a)
+            ;
+
+            
+        
+    
+
+            var circle_b49b1b3e132341188a448aa72d8a3b4b = L.circle(
+                [47.25805556, 0.691388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b7ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20387.687219528598,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_ae917634446e404cabcc373ff6476b5b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b67f10afff35421f8cb8e6ba4bf2dd09 = $('<div id="html_b67f10afff35421f8cb8e6ba4bf2dd09" style="width: 100.0%; height: 100.0%;">Indre-et-Loire: 59 victims by 2020-05-01.</div>')[0];
+                popup_ae917634446e404cabcc373ff6476b5b.setContent(html_b67f10afff35421f8cb8e6ba4bf2dd09);
+            
+
+            circle_b49b1b3e132341188a448aa72d8a3b4b.bindPopup(popup_ae917634446e404cabcc373ff6476b5b)
+            ;
+
+            
+        
+    
+
+            var circle_5cac389334794bba86fffc24f84bc52e = L.circle(
+                [48.3875, 1.370277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff2acff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22554.29753258425,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_5eed7d11b8a541ddbabf14df63264952 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aabef2266c154887a7aa051ec86ac776 = $('<div id="html_aabef2266c154887a7aa051ec86ac776" style="width: 100.0%; height: 100.0%;">Eure-et-Loir: 91 victims by 2020-05-01.</div>')[0];
+                popup_5eed7d11b8a541ddbabf14df63264952.setContent(html_aabef2266c154887a7aa051ec86ac776);
+            
+
+            circle_5cac389334794bba86fffc24f84bc52e.bindPopup(popup_5eed7d11b8a541ddbabf14df63264952)
+            ;
+
+            
+        
+    
+
+            var circle_32e75c236a4147ec98ccb1d916444933 = L.circle(
+                [45.4775, 6.443611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff9bdff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18920.948169591305,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_9819fe7151a64584abe3370abb101ad8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a442a7869b994b719894d8b486751bb2 = $('<div id="html_a442a7869b994b719894d8b486751bb2" style="width: 100.0%; height: 100.0%;">Savoie: 44 victims by 2020-05-01.</div>')[0];
+                popup_9819fe7151a64584abe3370abb101ad8.setContent(html_a442a7869b994b719894d8b486751bb2);
+            
+
+            circle_32e75c236a4147ec98ccb1d916444933.bindPopup(popup_9819fe7151a64584abe3370abb101ad8)
+            ;
+
+            
+        
+    
+
+            var circle_fdbfb547a3924ee3a2941238829de342 = L.circle(
+                [49.95805556, 2.277777778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffe58eff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25908.917751460423,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_d96eb7bd848242e4847f700a2f968f7a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae247a3b75fa4b5c900d407c0d09eb59 = $('<div id="html_ae247a3b75fa4b5c900d407c0d09eb59" style="width: 100.0%; height: 100.0%;">Somme: 178 victims by 2020-05-01.</div>')[0];
+                popup_d96eb7bd848242e4847f700a2f968f7a.setContent(html_ae247a3b75fa4b5c900d407c0d09eb59);
+            
+
+            circle_fdbfb547a3924ee3a2941238829de342.bindPopup(popup_d96eb7bd848242e4847f700a2f968f7a)
+            ;
+
+            
+        
+    
+
+            var circle_2e8b71d10c1f43069e80b778af35b813 = L.circle(
+                [48.44111111, -2.864166667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16094.379124341003,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_611b75365235463585037e28357becf2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5bb7acbf50324c4c9eb518b6248d3166 = $('<div id="html_5bb7acbf50324c4c9eb518b6248d3166" style="width: 100.0%; height: 100.0%;">Cotes-d-Armor: 25 victims by 2020-05-01.</div>')[0];
+                popup_611b75365235463585037e28357becf2.setContent(html_5bb7acbf50324c4c9eb518b6248d3166);
+            
+
+            circle_2e8b71d10c1f43069e80b778af35b813.bindPopup(popup_611b75365235463585037e28357becf2)
+            ;
+
+            
+        
+    
+
+            var circle_130a8c42d0af4cccad4c1e23fc696b9b = L.circle(
+                [44.28027778, 2.679722222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15455.212266791581,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a565f4631aad4d2080d6949fb7c8d268 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_72c11f38f69a4b4cb1f38490b680b44a = $('<div id="html_72c11f38f69a4b4cb1f38490b680b44a" style="width: 100.0%; height: 100.0%;">Aveyron: 22 victims by 2020-05-01.</div>')[0];
+                popup_a565f4631aad4d2080d6949fb7c8d268.setContent(html_72c11f38f69a4b4cb1f38490b680b44a);
+            
+
+            circle_130a8c42d0af4cccad4c1e23fc696b9b.bindPopup(popup_a565f4631aad4d2080d6949fb7c8d268)
+            ;
+
+            
+        
+    
+
+            var circle_88f934977bb34962b43b7c56e59653e7 = L.circle(
+                [48.26111111, -4.058888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffabfff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18054.58956322112,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_5ddcb5b44c874ea4be85c871e5bafb0c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1dd2b8e36e3e48dcae501eb2a28254b5 = $('<div id="html_1dd2b8e36e3e48dcae501eb2a28254b5" style="width: 100.0%; height: 100.0%;">Finistere: 37 victims by 2020-05-01.</div>')[0];
+                popup_5ddcb5b44c874ea4be85c871e5bafb0c.setContent(html_1dd2b8e36e3e48dcae501eb2a28254b5);
+            
+
+            circle_88f934977bb34962b43b7c56e59653e7.bindPopup(popup_5ddcb5b44c874ea4be85c871e5bafb0c)
+            ;
+
+            
+        
+    
+
+            var circle_09f75fd27af8428ebcf1e3df5fe4b5c3 = L.circle(
+                [47.63166667, 6.928611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffea98ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25019.731529727294,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_44d33f187d39448b94ae4852c609a439 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_485cd99b701c46919ec888ef110fda12 = $('<div id="html_485cd99b701c46919ec888ef110fda12" style="width: 100.0%; height: 100.0%;">Territoire de Belfort: 149 victims by 2020-05-01.</div>')[0];
+                popup_44d33f187d39448b94ae4852c609a439.setContent(html_485cd99b701c46919ec888ef110fda12);
+            
+
+            circle_09f75fd27af8428ebcf1e3df5fe4b5c3.bindPopup(popup_44d33f187d39448b94ae4852c609a439)
+            ;
+
+            
+        
+    
+
+            var circle_fcdb8f8f66d248cfb98a26fedd23d2db = L.circle(
+                [43.69277778, 0.453333333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffdc6ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14166.06672028108,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_9204f31a7e164aa0a65a30a706e75b63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4ca02cbc72d941e1834b53b2cf35abf8 = $('<div id="html_4ca02cbc72d941e1834b53b2cf35abf8" style="width: 100.0%; height: 100.0%;">Gers: 17 victims by 2020-05-01.</div>')[0];
+                popup_9204f31a7e164aa0a65a30a706e75b63.setContent(html_4ca02cbc72d941e1834b53b2cf35abf8);
+            
+
+            circle_fcdb8f8f66d248cfb98a26fedd23d2db.bindPopup(popup_9204f31a7e164aa0a65a30a706e75b63)
+            ;
+
+            
+        
+    
+
+            var circle_6d128c5b329c4835b5e414b299ee44fb = L.circle(
+                [43.9375, 7.116388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffec9dff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 24526.373892192147,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_4af0d14e04a349ee8bdbb5ca5a7a37a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b715f6e2ae724c33bd2a65c3810bb55d = $('<div id="html_b715f6e2ae724c33bd2a65c3810bb55d" style="width: 100.0%; height: 100.0%;">Alpes-Maritimes: 135 victims by 2020-05-01.</div>')[0];
+                popup_4af0d14e04a349ee8bdbb5ca5a7a37a8.setContent(html_b715f6e2ae724c33bd2a65c3810bb55d);
+            
+
+            circle_6d128c5b329c4835b5e414b299ee44fb.bindPopup(popup_4af0d14e04a349ee8bdbb5ca5a7a37a8)
+            ;
+
+            
+        
+    
+
+            var circle_54338f75fc4c43d2b45450ce76545529 = L.circle(
+                [45.72694444, 4.165833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffe38bff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26208.735075298213,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_fe129c748dd248e399780ed32c4999cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea9d792934554d5c9c6b61c60d5386ed = $('<div id="html_ea9d792934554d5c9c6b61c60d5386ed" style="width: 100.0%; height: 100.0%;">Loire: 189 victims by 2020-05-01.</div>')[0];
+                popup_fe129c748dd248e399780ed32c4999cd.setContent(html_ea9d792934554d5c9c6b61c60d5386ed);
+            
+
+            circle_54338f75fc4c43d2b45450ce76545529.bindPopup(popup_fe129c748dd248e399780ed32c4999cd)
+            ;
+
+            
+        
+    
+
+            var circle_e3843870389d47bb9a2442b12c9f1d49 = L.circle(
+                [42.39416667, 9.206388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10397.207708399179,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_fc9b158f841347928343b0c08fc12e5f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6e76c79b46aa46db9c639fb80789ee3f = $('<div id="html_6e76c79b46aa46db9c639fb80789ee3f" style="width: 100.0%; height: 100.0%;">Haute-Corse: 8 victims by 2020-05-01.</div>')[0];
+                popup_fc9b158f841347928343b0c08fc12e5f.setContent(html_6e76c79b46aa46db9c639fb80789ee3f);
+            
+
+            circle_e3843870389d47bb9a2442b12c9f1d49.bindPopup(popup_fc9b158f841347928343b0c08fc12e5f)
+            ;
+
+            
+        
+    
+
+            var circle_8c658069b4af412fbfe286b48ec68f77 = L.circle(
+                [48.815, 1.841666667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fea245ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30330.540450518736,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_54fb30a7934e418ebee3a8c37c8a7367 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f704621e90d4cfdbf8fd569de037dd6 = $('<div id="html_1f704621e90d4cfdbf8fd569de037dd6" style="width: 100.0%; height: 100.0%;">Yvelines: 431 victims by 2020-05-01.</div>')[0];
+                popup_54fb30a7934e418ebee3a8c37c8a7367.setContent(html_1f704621e90d4cfdbf8fd569de037dd6);
+            
+
+            circle_8c658069b4af412fbfe286b48ec68f77.bindPopup(popup_54fb30a7934e418ebee3a8c37c8a7367)
+            ;
+
+            
+        
+    
+
+            var circle_e3288e7f2ab947d4aca023d5281ddbaf = L.circle(
+                [46.39361111, 3.188333333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16479.184330021646,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a975e075f40e4d7aaee16a26d0f867ea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_60cb95aaa764429d80802437a3ab8f75 = $('<div id="html_60cb95aaa764429d80802437a3ab8f75" style="width: 100.0%; height: 100.0%;">Allier: 27 victims by 2020-05-01.</div>')[0];
+                popup_a975e075f40e4d7aaee16a26d0f867ea.setContent(html_60cb95aaa764429d80802437a3ab8f75);
+            
+
+            circle_e3288e7f2ab947d4aca023d5281ddbaf.bindPopup(popup_a975e075f40e4d7aaee16a26d0f867ea)
+            ;
+
+            
+        
+    
+
+            var circle_ee2772858ca3482ab94443faffed9dbe = L.circle(
+                [48.15444444, -1.638611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff5b4ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21242.476210246798,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_eadcdd8c67a649d5b3cce84e426a49ca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c6f1365c37543ff908ef2b6b447290b = $('<div id="html_9c6f1365c37543ff908ef2b6b447290b" style="width: 100.0%; height: 100.0%;">Ille-et-Vilaine: 70 victims by 2020-05-01.</div>')[0];
+                popup_eadcdd8c67a649d5b3cce84e426a49ca.setContent(html_9c6f1365c37543ff908ef2b6b447290b);
+            
+
+            circle_ee2772858ca3482ab94443faffed9dbe.bindPopup(popup_eadcdd8c67a649d5b3cce84e426a49ca)
+            ;
+
+            
+        
+    
+
+            var circle_75f0db4a917d4dea97fe2c8e5d2cfa8f = L.circle(
+                [46.55555556, -0.317222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffdc6ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14166.06672028108,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_c5d5346699c2466dadc6ee7bf154963e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_862157021be94df695a66e9444a23973 = $('<div id="html_862157021be94df695a66e9444a23973" style="width: 100.0%; height: 100.0%;">Deux-Sevres: 17 victims by 2020-05-01.</div>')[0];
+                popup_c5d5346699c2466dadc6ee7bf154963e.setContent(html_862157021be94df695a66e9444a23973);
+            
+
+            circle_75f0db4a917d4dea97fe2c8e5d2cfa8f.bindPopup(popup_c5d5346699c2466dadc6ee7bf154963e)
+            ;
+
+            
+        
+    
+
+            var circle_0de51f05ccc64034bab91c90d7775f85 = L.circle(
+                [48.62666667, 2.933333333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fe8e3cff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 31032.879633624638,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_2a759f34311e4857aa0ed3eb1686bedc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_751349d0ae044c9082036c8540cf2b0a = $('<div id="html_751349d0ae044c9082036c8540cf2b0a" style="width: 100.0%; height: 100.0%;">Seine-et-Marne: 496 victims by 2020-05-01.</div>')[0];
+                popup_2a759f34311e4857aa0ed3eb1686bedc.setContent(html_751349d0ae044c9082036c8540cf2b0a);
+            
+
+            circle_0de51f05ccc64034bab91c90d7775f85.bindPopup(popup_2a759f34311e4857aa0ed3eb1686bedc)
+            ;
+
+            
+        
+    
+
+            var circle_d9be0bf58a2a4b95bf4fc840b04efa94 = L.circle(
+                [48.85666667, 2.342222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#800026ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36468.48860300719,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_524d705c1f624a6baee57014c0f27f6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dee50c05f82b4130ab9a4f2a45eab750 = $('<div id="html_dee50c05f82b4130ab9a4f2a45eab750" style="width: 100.0%; height: 100.0%;">Paris: 1471 victims by 2020-05-01.</div>')[0];
+                popup_524d705c1f624a6baee57014c0f27f6d.setContent(html_dee50c05f82b4130ab9a4f2a45eab750);
+            
+
+            circle_d9be0bf58a2a4b95bf4fc840b04efa94.bindPopup(popup_524d705c1f624a6baee57014c0f27f6d)
+            ;
+
+            
+        
+    
+
+            var circle_99a3aa6c244e4725af55b4127f77cef5 = L.circle(
+                [44.75166667, 4.424722222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff6b4ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21097.538525880536,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_1eeaed8a35c748eeab2240e179ff8ada = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_09cfe95e83ab40018b55fe6091ce8887 = $('<div id="html_09cfe95e83ab40018b55fe6091ce8887" style="width: 100.0%; height: 100.0%;">Ardeche: 68 victims by 2020-05-01.</div>')[0];
+                popup_1eeaed8a35c748eeab2240e179ff8ada.setContent(html_09cfe95e83ab40018b55fe6091ce8887);
+            
+
+            circle_99a3aa6c244e4725af55b4127f77cef5.bindPopup(popup_1eeaed8a35c748eeab2240e179ff8ada)
+            ;
+
+            
+        
+    
+
+            var circle_c2393e136202470e87f34b398d087f51 = L.circle(
+                [49.655, 1.026388889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffe996ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25184.763012068146,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_53fb8c3bff78487489b0c0a95239245f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06a3797004c8460f8f873fda4c5d3fc9 = $('<div id="html_06a3797004c8460f8f873fda4c5d3fc9" style="width: 100.0%; height: 100.0%;">Seine-Maritime: 154 victims by 2020-05-01.</div>')[0];
+                popup_53fb8c3bff78487489b0c0a95239245f.setContent(html_06a3797004c8460f8f873fda4c5d3fc9);
+            
+
+            circle_c2393e136202470e87f34b398d087f51.bindPopup(popup_53fb8c3bff78487489b0c0a95239245f)
+            ;
+
+            
+        
+    
+
+            var circle_0f9c7ffe9a604fe5bc4bfef02248346b = L.circle(
+                [49.07944444, -1.3275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffabeff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18444.39727056968,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_856ef66d0e6e4e05a420c9fb80baa99c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f18e75db3e6e4ba5a8b668f8d1bcaa92 = $('<div id="html_f18e75db3e6e4ba5a8b668f8d1bcaa92" style="width: 100.0%; height: 100.0%;">Manche: 40 victims by 2020-05-01.</div>')[0];
+                popup_856ef66d0e6e4e05a420c9fb80baa99c.setContent(html_f18e75db3e6e4ba5a8b668f8d1bcaa92);
+            
+
+            circle_0f9c7ffe9a604fe5bc4bfef02248346b.bindPopup(popup_856ef66d0e6e4e05a420c9fb80baa99c)
+            ;
+
+            
+        
+    
+
+            var circle_0ffee6187aeb4cdbb5594462fdb4ed42 = L.circle(
+                [45.05111111, 2.668611111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffffcbff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8047.189562170502,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_dd608e976c1d4b65981b257db14d264e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa17039484154f288f516bd9deb10c09 = $('<div id="html_fa17039484154f288f516bd9deb10c09" style="width: 100.0%; height: 100.0%;">Cantal: 5 victims by 2020-05-01.</div>')[0];
+                popup_dd608e976c1d4b65981b257db14d264e.setContent(html_fa17039484154f288f516bd9deb10c09);
+            
+
+            circle_0ffee6187aeb4cdbb5594462fdb4ed42.bindPopup(popup_dd608e976c1d4b65981b257db14d264e)
+            ;
+
+            
+        
+    
+
+            var circle_fb9af1532d2a40f483cdb241e4f1a472 = L.circle(
+                [46.56388889, 0.460277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffbc1ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17169.936022425733,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_8cc53b800c3943c48e0ff14f97ea3b60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_127bc4a6ced842d3a98714ed1ecbfac8 = $('<div id="html_127bc4a6ced842d3a98714ed1ecbfac8" style="width: 100.0%; height: 100.0%;">Vienne: 31 victims by 2020-05-01.</div>')[0];
+                popup_8cc53b800c3943c48e0ff14f97ea3b60.setContent(html_127bc4a6ced842d3a98714ed1ecbfac8);
+            
+
+            circle_fb9af1532d2a40f483cdb241e4f1a472.bindPopup(popup_8cc53b800c3943c48e0ff14f97ea3b60)
+            ;
+
+            
+        
+    
+
+            var circle_82fc8a19fc6744daa8fb01e047c9d1e6 = L.circle(
+                [47.91194444, 2.344166667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff5b3ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21452.297205741954,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_f8746ed23e8d4ca5bafff683d25bfc60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_47ac894da0774da5bbaa359f8af0d7a5 = $('<div id="html_47ac894da0774da5bbaa359f8af0d7a5" style="width: 100.0%; height: 100.0%;">Loiret: 73 victims by 2020-05-01.</div>')[0];
+                popup_f8746ed23e8d4ca5bafff683d25bfc60.setContent(html_47ac894da0774da5bbaa359f8af0d7a5);
+            
+
+            circle_82fc8a19fc6744daa8fb01e047c9d1e6.bindPopup(popup_f8746ed23e8d4ca5bafff683d25bfc60)
+            ;
+
+            
+        
+    
+
+            var circle_82f0f7d5987e41439c3cca270ddfcab5 = L.circle(
+                [44.10611111, 6.243888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffec9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10397.207708399179,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_5df2523443394896ac8b2ecc099f7378 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7012eadabf21426eaff75980b6b1e4e8 = $('<div id="html_7012eadabf21426eaff75980b6b1e4e8" style="width: 100.0%; height: 100.0%;">Alpes-de-Haute-Provence: 8 victims by 2020-05-01.</div>')[0];
+                popup_5df2523443394896ac8b2ecc099f7378.setContent(html_7012eadabf21426eaff75980b6b1e4e8);
+            
+
+            circle_82f0f7d5987e41439c3cca270ddfcab5.bindPopup(popup_5df2523443394896ac8b2ecc099f7378)
+            ;
+
+            
+        
+    
+
+            var circle_8341a773c13f4beda4ad506070d62b5c = L.circle(
+                [44.68416667, 5.168055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffeea2ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23895.617465557647,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_3064e095dc1e494ebcbe49edc6b4abdf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9952e8dc6354c44b31c9084f4b272de = $('<div id="html_c9952e8dc6354c44b31c9084f4b272de" style="width: 100.0%; height: 100.0%;">Drome: 119 victims by 2020-05-01.</div>')[0];
+                popup_3064e095dc1e494ebcbe49edc6b4abdf.setContent(html_c9952e8dc6354c44b31c9084f4b272de);
+            
+
+            circle_8341a773c13f4beda4ad506070d62b5c.bindPopup(popup_3064e095dc1e494ebcbe49edc6b4abdf)
+            ;
+
+            
+        
+    
+
+            var circle_77fcb86523f34a74a4282d7ae9527120 = L.circle(
+                [48.1333, -0.6833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffbc1ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17328.67951399863,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_f079b70d461642ef838ebc7fbcd3bf9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e1d9d09fc8f467c9b6235e95d20a7c7 = $('<div id="html_0e1d9d09fc8f467c9b6235e95d20a7c7" style="width: 100.0%; height: 100.0%;">Mayenne: 32 victims by 2020-05-01.</div>')[0];
+                popup_f079b70d461642ef838ebc7fbcd3bf9c.setContent(html_0e1d9d09fc8f467c9b6235e95d20a7c7);
+            
+
+            circle_77fcb86523f34a74a4282d7ae9527120.bindPopup(popup_f079b70d461642ef838ebc7fbcd3bf9c)
+            ;
+
+            
+        
+    
+
+            var circle_e58b452ff9fc4033a1cf785f1873237d = L.circle(
+                [45.89166667, 1.235277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fffcc5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15455.212266791581,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_a71294b962ed4a4581cf58d1242180f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_02612cf3aae3419c8d1601dece1f9fb7 = $('<div id="html_02612cf3aae3419c8d1601dece1f9fb7" style="width: 100.0%; height: 100.0%;">Haute-Vienne: 22 victims by 2020-05-01.</div>')[0];
+                popup_a71294b962ed4a4581cf58d1242180f8.setContent(html_02612cf3aae3419c8d1601dece1f9fb7);
+            
+
+            circle_e58b452ff9fc4033a1cf785f1873237d.bindPopup(popup_a71294b962ed4a4581cf58d1242180f8)
+            ;
+
+            
+        
+    
+
+            var circle_f3a13e242b0b43d8b736dea309c21b3b = L.circle(
+                [47.61666667, 1.429444444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff9bcff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19250.738008550292,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_72f05fb2c1da4e05a76b51bafd10216a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d71829b126945c8bc547098bc48398d = $('<div id="html_6d71829b126945c8bc547098bc48398d" style="width: 100.0%; height: 100.0%;">Loir-et-Cher: 47 victims by 2020-05-01.</div>')[0];
+                popup_72f05fb2c1da4e05a76b51bafd10216a.setContent(html_6d71829b126945c8bc547098bc48398d);
+            
+
+            circle_f3a13e242b0b43d8b736dea309c21b3b.bindPopup(popup_72f05fb2c1da4e05a76b51bafd10216a)
+            ;
+
+            
+        
+    
+
+            var circle_4d8f6ff6ed8246c58af7fb8a8fe0592c = L.circle(
+                [45.78083333, -0.674444444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff9bdff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18806.00057846781,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_919d0cd2d12e4a12ac52b16beebe8d8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d577b284ff545b297e0ef7290c799ac = $('<div id="html_0d577b284ff545b297e0ef7290c799ac" style="width: 100.0%; height: 100.0%;">Charente-Maritime: 43 victims by 2020-05-01.</div>')[0];
+                popup_919d0cd2d12e4a12ac52b16beebe8d8f.setContent(html_0d577b284ff545b297e0ef7290c799ac);
+            
+
+            circle_4d8f6ff6ed8246c58af7fb8a8fe0592c.bindPopup(popup_919d0cd2d12e4a12ac52b16beebe8d8f)
+            ;
+
+            
+        
+    
+
+            var circle_aa546f38db6a42c180d04b653adc734c = L.circle(
+                [43.99333333, 4.180277778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff7b7ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20554.369320866557,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_413ed3fad0724693944f336f2e285d07 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d006176763d431daf3ef94362b64f5e = $('<div id="html_6d006176763d431daf3ef94362b64f5e" style="width: 100.0%; height: 100.0%;">Gard: 61 victims by 2020-05-01.</div>')[0];
+                popup_413ed3fad0724693944f336f2e285d07.setContent(html_6d006176763d431daf3ef94362b64f5e);
+            
+
+            circle_aa546f38db6a42c180d04b653adc734c.bindPopup(popup_413ed3fad0724693944f336f2e285d07)
+            ;
+
+            
+        
+    
+
+            var circle_054cbfa5266743f5b9ff3159fa8a737c = L.circle(
+                [47.39083333, -0.564166667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff1a9ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23025.850929940458,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_5e5f4f229a284c39ab5e836eaa6a5a54 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc1b5cf1f462465d879511349ac4fb44 = $('<div id="html_fc1b5cf1f462465d879511349ac4fb44" style="width: 100.0%; height: 100.0%;">Maine-et-Loire: 100 victims by 2020-05-01.</div>')[0];
+                popup_5e5f4f229a284c39ab5e836eaa6a5a54.setContent(html_fc1b5cf1f462465d879511349ac4fb44);
+            
+
+            circle_054cbfa5266743f5b9ff3159fa8a737c.bindPopup(popup_5e5f4f229a284c39ab5e836eaa6a5a54)
+            ;
+
+            
+        
+    
+
+            var circle_7797920e6d254adda843598531a42841 = L.circle(
+                [43.57972222, 3.367222222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff0a8ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23221.95449570686,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_ba8ca07d515945128499878d0d02597a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d086501ecd3b436cb6e1ac4b7ea63c7c = $('<div id="html_d086501ecd3b436cb6e1ac4b7ea63c7c" style="width: 100.0%; height: 100.0%;">Herault: 104 victims by 2020-05-01.</div>')[0];
+                popup_ba8ca07d515945128499878d0d02597a.setContent(html_d086501ecd3b436cb6e1ac4b7ea63c7c);
+            
+
+            circle_7797920e6d254adda843598531a42841.bindPopup(popup_ba8ca07d515945128499878d0d02597a)
+            ;
+
+            
+        
+    
+
+            var circle_c03c5b8425c8445096b4f6dd6c8b99cb = L.circle(
+                [46.77777778, 1.575833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff6b5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20871.936349478183,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_29438ea2538c4949b2eb8881323ec012 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8884ad5aa4474e9c8fcca786892b65c1 = $('<div id="html_8884ad5aa4474e9c8fcca786892b65c1" style="width: 100.0%; height: 100.0%;">Indre: 65 victims by 2020-05-01.</div>')[0];
+                popup_29438ea2538c4949b2eb8881323ec012.setContent(html_8884ad5aa4474e9c8fcca786892b65c1);
+            
+
+            circle_c03c5b8425c8445096b4f6dd6c8b99cb.bindPopup(popup_29438ea2538c4949b2eb8881323ec012)
+            ;
+
+            
+        
+    
+
+            var circle_e2b53327fe9640499da2c38b3eea8395 = L.circle(
+                [45.26333333, 5.576111111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff0a6ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23364.14417230953,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_9a6dfc3e69614523a5ca7625f6283e4a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3554ebe12414401aacf21529e830acd0 = $('<div id="html_3554ebe12414401aacf21529e830acd0" style="width: 100.0%; height: 100.0%;">Isere: 107 victims by 2020-05-01.</div>')[0];
+                popup_9a6dfc3e69614523a5ca7625f6283e4a.setContent(html_3554ebe12414401aacf21529e830acd0);
+            
+
+            circle_e2b53327fe9640499da2c38b3eea8395.bindPopup(popup_9a6dfc3e69614523a5ca7625f6283e4a)
+            ;
+
+            
+        
+    
+
+            var circle_d15a38a7606d4500a0e8cee9dc405493 = L.circle(
+                [46.03444444, 6.428055],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffeb9cff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 24636.268425786024,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_d0f36598931b49c99d9b78ea99347fda = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ded57722d2c342b1b8ba6900075a4654 = $('<div id="html_ded57722d2c342b1b8ba6900075a4654" style="width: 100.0%; height: 100.0%;">Haute-Savoie: 138 victims by 2020-05-01.</div>')[0];
+                popup_d0f36598931b49c99d9b78ea99347fda.setContent(html_ded57722d2c342b1b8ba6900075a4654);
+            
+
+            circle_d15a38a7606d4500a0e8cee9dc405493.bindPopup(popup_d0f36598931b49c99d9b78ea99347fda)
+            ;
+
+            
+        
+    
+
+            var circle_1bebb5ccdf4a46d3b515c91972990d9c = L.circle(
+                [43.35861111, 1.172777778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#fff8bbff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19560.11502714073,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_f5e2767a082143abb74413fece07ca43 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d63938db1df4b94a21daca1cf6ecfae = $('<div id="html_3d63938db1df4b94a21daca1cf6ecfae" style="width: 100.0%; height: 100.0%;">Haute-Garonne: 50 victims by 2020-05-01.</div>')[0];
+                popup_f5e2767a082143abb74413fece07ca43.setContent(html_3d63938db1df4b94a21daca1cf6ecfae);
+            
+
+            circle_1bebb5ccdf4a46d3b515c91972990d9c.bindPopup(popup_f5e2767a082143abb74413fece07ca43)
+            ;
+
+            
+        
+    
+
+            var circle_acebdc55b488442eb84b1bec09cac982 = L.circle(
+                [43.46055556, 6.218055556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffefa5ff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23592.494356475472,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_2032fa7c31b44b8894cc9abc5fca1072 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5735e643994744058d6b1e57300b4463 = $('<div id="html_5735e643994744058d6b1e57300b4463" style="width: 100.0%; height: 100.0%;">Var: 112 victims by 2020-05-01.</div>')[0];
+                popup_2032fa7c31b44b8894cc9abc5fca1072.setContent(html_5735e643994744058d6b1e57300b4463);
+            
+
+            circle_acebdc55b488442eb84b1bec09cac982.bindPopup(popup_2032fa7c31b44b8894cc9abc5fca1072)
+            ;
+
+            
+        
+    
+
+            var circle_1516d683b87d49cb965c4df098829c10 = L.circle(
+                [42.92083333, 1.503888889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffffccff",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3465.7359027997263,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+            
+    
+            var popup_058fd07020f74ad691898e101e799155 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dd2d4d11b2c24ff19820988dc33ec703 = $('<div id="html_dd2d4d11b2c24ff19820988dc33ec703" style="width: 100.0%; height: 100.0%;">Ariege: 2 victims by 2020-05-01.</div>')[0];
+                popup_058fd07020f74ad691898e101e799155.setContent(html_dd2d4d11b2c24ff19820988dc33ec703);
+            
+
+            circle_1516d683b87d49cb965c4df098829c10.bindPopup(popup_058fd07020f74ad691898e101e799155)
+            ;
+
+            
+        
+    
+    var color_map_59bd54353b9040689f005e35e5fdbf6a = {};
+
+    
+    color_map_59bd54353b9040689f005e35e5fdbf6a.color = d3.scale.threshold()
+              .domain([0.0, 2.004008016032064, 4.008016032064128, 6.012024048096192, 8.016032064128256, 10.02004008016032, 12.024048096192384, 14.02805611222445, 16.03206412825651, 18.03607214428858, 20.04008016032064, 22.044088176352705, 24.04809619238477, 26.052104208416832, 28.0561122244489, 30.060120240480963, 32.06412825651302, 34.06813627254509, 36.07214428857716, 38.07615230460922, 40.08016032064128, 42.08416833667334, 44.08817635270541, 46.09218436873748, 48.09619238476954, 50.100200400801604, 52.104208416833664, 54.10821643286573, 56.1122244488978, 58.11623246492986, 60.120240480961925, 62.124248496993985, 64.12825651302605, 66.13226452905812, 68.13627254509018, 70.14028056112224, 72.14428857715431, 74.14829659318637, 76.15230460921843, 78.15631262525051, 80.16032064128257, 82.16432865731463, 84.16833667334669, 86.17234468937876, 88.17635270541082, 90.18036072144288, 92.18436873747495, 94.18837675350701, 96.19238476953907, 98.19639278557115, 100.20040080160321, 102.20440881763527, 104.20841683366733, 106.2124248496994, 108.21643286573146, 110.22044088176352, 112.2244488977956, 114.22845691382766, 116.23246492985972, 118.23647294589178, 120.24048096192385, 122.24448897795591, 124.24849699398797, 126.25250501002004, 128.2565130260521, 130.26052104208418, 132.26452905811624, 134.2685370741483, 136.27254509018036, 138.27655310621242, 140.28056112224448, 142.28456913827657, 144.28857715430863, 146.2925851703407, 148.29659318637275, 150.3006012024048, 152.30460921843687, 154.30861723446893, 156.31262525050101, 158.31663326653307, 160.32064128256513, 162.3246492985972, 164.32865731462925, 166.3326653306613, 168.33667334669337, 170.34068136272546, 172.34468937875752, 174.34869739478958, 176.35270541082164, 178.3567134268537, 180.36072144288576, 182.36472945891782, 184.3687374749499, 186.37274549098197, 188.37675350701403, 190.3807615230461, 192.38476953907815, 194.3887775551102, 196.3927855711423, 198.39679358717436, 200.40080160320642, 202.40480961923848, 204.40881763527054, 206.4128256513026, 208.41683366733466, 210.42084168336675, 212.4248496993988, 214.42885771543087, 216.43286573146293, 218.43687374749499, 220.44088176352705, 222.4448897795591, 224.4488977955912, 226.45290581162325, 228.4569138276553, 230.46092184368737, 232.46492985971943, 234.4689378757515, 236.47294589178355, 238.47695390781564, 240.4809619238477, 242.48496993987976, 244.48897795591182, 246.49298597194388, 248.49699398797594, 250.50100200400803, 252.5050100200401, 254.50901803607215, 256.5130260521042, 258.5170340681363, 260.52104208416836, 262.5250501002004, 264.5290581162325, 266.53306613226454, 268.5370741482966, 270.54108216432866, 272.5450901803607, 274.5490981963928, 276.55310621242484, 278.5571142284569, 280.56112224448896, 282.565130260521, 284.56913827655313, 286.5731462925852, 288.57715430861725, 290.5811623246493, 292.5851703406814, 294.58917835671343, 296.5931863727455, 298.59719438877755, 300.6012024048096, 302.6052104208417, 304.60921843687373, 306.6132264529058, 308.61723446893785, 310.6212424849699, 312.62525050100203, 314.6292585170341, 316.63326653306615, 318.6372745490982, 320.64128256513027, 322.6452905811623, 324.6492985971944, 326.65330661322645, 328.6573146292585, 330.66132264529057, 332.6653306613226, 334.6693386773547, 336.67334669338675, 338.67735470941886, 340.6813627254509, 342.685370741483, 344.68937875751504, 346.6933867735471, 348.69739478957916, 350.7014028056112, 352.7054108216433, 354.70941883767534, 356.7134268537074, 358.71743486973946, 360.7214428857715, 362.7254509018036, 364.72945891783564, 366.73346693386776, 368.7374749498998, 370.7414829659319, 372.74549098196394, 374.749498997996, 376.75350701402806, 378.7575150300601, 380.7615230460922, 382.76553106212424, 384.7695390781563, 386.77354709418836, 388.7775551102204, 390.7815631262525, 392.7855711422846, 394.78957915831666, 396.7935871743487, 398.7975951903808, 400.80160320641284, 402.8056112224449, 404.80961923847696, 406.813627254509, 408.8176352705411, 410.82164328657313, 412.8256513026052, 414.82965931863725, 416.8336673346693, 418.8376753507014, 420.8416833667335, 422.84569138276555, 424.8496993987976, 426.85370741482967, 428.85771543086173, 430.8617234468938, 432.86573146292585, 434.8697394789579, 436.87374749498997, 438.87775551102203, 440.8817635270541, 442.88577154308615, 444.8897795591182, 446.8937875751503, 448.8977955911824, 450.90180360721445, 452.9058116232465, 454.90981963927857, 456.9138276553106, 458.9178356713427, 460.92184368737475, 462.9258517034068, 464.92985971943887, 466.9338677354709, 468.937875751503, 470.94188376753505, 472.9458917835671, 474.9498997995992, 476.9539078156313, 478.95791583166334, 480.9619238476954, 482.96593186372746, 484.9699398797595, 486.9739478957916, 488.97795591182364, 490.9819639278557, 492.98597194388776, 494.9899799599198, 496.9939879759519, 498.99799599198394, 501.00200400801606, 503.0060120240481, 505.0100200400802, 507.01402805611224, 509.0180360721443, 511.02204408817636, 513.0260521042084, 515.0300601202405, 517.0340681362726, 519.0380761523046, 521.0420841683367, 523.0460921843687, 525.0501002004008, 527.0541082164328, 529.058116232465, 531.062124248497, 533.0661322645291, 535.0701402805611, 537.0741482965932, 539.0781563126252, 541.0821643286573, 543.0861723446894, 545.0901803607214, 547.0941883767536, 549.0981963927856, 551.1022044088177, 553.1062124248497, 555.1102204408818, 557.1142284569138, 559.1182364729459, 561.1222444889779, 563.12625250501, 565.130260521042, 567.1342685370741, 569.1382765531063, 571.1422845691383, 573.1462925851704, 575.1503006012024, 577.1543086172345, 579.1583166332665, 581.1623246492986, 583.1663326653306, 585.1703406813627, 587.1743486973947, 589.1783567134269, 591.1823647294589, 593.186372745491, 595.1903807615231, 597.1943887775551, 599.1983967935872, 601.2024048096192, 603.2064128256513, 605.2104208416833, 607.2144288577155, 609.2184368737475, 611.2224448897796, 613.2264529058116, 615.2304609218437, 617.2344689378757, 619.2384769539078, 621.2424849699398, 623.2464929859719, 625.2505010020041, 627.2545090180361, 629.2585170340682, 631.2625250501002, 633.2665330661323, 635.2705410821643, 637.2745490981964, 639.2785571142284, 641.2825651302605, 643.2865731462925, 645.2905811623247, 647.2945891783567, 649.2985971943888, 651.3026052104209, 653.3066132264529, 655.310621242485, 657.314629258517, 659.3186372745491, 661.3226452905811, 663.3266533066133, 665.3306613226453, 667.3346693386774, 669.3386773547094, 671.3426853707415, 673.3466933867735, 675.3507014028056, 677.3547094188377, 679.3587174348697, 681.3627254509018, 683.3667334669339, 685.370741482966, 687.374749498998, 689.3787575150301, 691.3827655310621, 693.3867735470942, 695.3907815631262, 697.3947895791583, 699.3987975951903, 701.4028056112224, 703.4068136272546, 705.4108216432866, 707.4148296593187, 709.4188376753507, 711.4228456913828, 713.4268537074148, 715.4308617234469, 717.4348697394789, 719.438877755511, 721.442885771543, 723.4468937875752, 725.4509018036072, 727.4549098196393, 729.4589178356713, 731.4629258517034, 733.4669338677355, 735.4709418837675, 737.4749498997996, 739.4789579158316, 741.4829659318638, 743.4869739478958, 745.4909819639279, 747.4949899799599, 749.498997995992, 751.503006012024, 753.5070140280561, 755.5110220440881, 757.5150300601202, 759.5190380761524, 761.5230460921844, 763.5270541082165, 765.5310621242485, 767.5350701402806, 769.5390781563126, 771.5430861723447, 773.5470941883767, 775.5511022044088, 777.5551102204408, 779.559118236473, 781.563126252505, 783.5671342685371, 785.5711422845692, 787.5751503006012, 789.5791583166333, 791.5831663326653, 793.5871743486974, 795.5911823647294, 797.5951903807616, 799.5991983967936, 801.6032064128257, 803.6072144288577, 805.6112224448898, 807.6152304609218, 809.6192384769539, 811.623246492986, 813.627254509018, 815.6312625250501, 817.6352705410821, 819.6392785571143, 821.6432865731463, 823.6472945891784, 825.6513026052104, 827.6553106212425, 829.6593186372745, 831.6633266533066, 833.6673346693386, 835.6713426853707, 837.6753507014027, 839.6793587174349, 841.683366733467, 843.687374749499, 845.6913827655311, 847.6953907815631, 849.6993987975952, 851.7034068136272, 853.7074148296593, 855.7114228456913, 857.7154308617235, 859.7194388777555, 861.7234468937876, 863.7274549098196, 865.7314629258517, 867.7354709418838, 869.7394789579158, 871.7434869739479, 873.7474949899799, 875.7515030060121, 877.7555110220441, 879.7595190380762, 881.7635270541082, 883.7675350701403, 885.7715430861723, 887.7755511022044, 889.7795591182364, 891.7835671342685, 893.7875751503007, 895.7915831663327, 897.7955911823648, 899.7995991983968, 901.8036072144289, 903.8076152304609, 905.811623246493, 907.815631262525, 909.8196392785571, 911.8236472945891, 913.8276553106213, 915.8316633266533, 917.8356713426854, 919.8396793587175, 921.8436873747495, 923.8476953907816, 925.8517034068136, 927.8557114228457, 929.8597194388777, 931.8637274549098, 933.8677354709419, 935.871743486974, 937.875751503006, 939.8797595190381, 941.8837675350701, 943.8877755511022, 945.8917835671342, 947.8957915831663, 949.8997995991984, 951.9038076152304, 953.9078156312626, 955.9118236472946, 957.9158316633267, 959.9198396793587, 961.9238476953908, 963.9278557114228, 965.9318637274549, 967.9358717434869, 969.939879759519, 971.943887775551, 973.9478957915832, 975.9519038076153, 977.9559118236473, 979.9599198396794, 981.9639278557114, 983.9679358717435, 985.9719438877755, 987.9759519038076, 989.9799599198396, 991.9839679358718, 993.9879759519038, 995.9919839679359, 997.9959919839679, 1000.0])
+              .range(['#ffffccff', '#ffffccff', '#ffffcbff', '#ffffcaff', '#fffec9ff', '#fffec9ff', '#fffec8ff', '#fffdc7ff', '#fffdc7ff', '#fffdc6ff', '#fffdc5ff', '#fffcc5ff', '#fffcc4ff', '#fffcc3ff', '#fffbc2ff', '#fffbc2ff', '#fffbc1ff', '#fffbc0ff', '#fffac0ff', '#fffabfff', '#fffabeff', '#fff9bdff', '#fff9bdff', '#fff9bcff', '#fff9bbff', '#fff8bbff', '#fff8baff', '#fff8b9ff', '#fff7b8ff', '#fff7b8ff', '#fff7b7ff', '#fff7b6ff', '#fff6b6ff', '#fff6b5ff', '#fff6b4ff', '#fff5b4ff', '#fff5b3ff', '#fff5b2ff', '#fff4b1ff', '#fff4b1ff', '#fff4b0ff', '#fff4afff', '#fff3afff', '#fff3aeff', '#fff3adff', '#fff2acff', '#fff2acff', '#fff2abff', '#fff2aaff', '#fff1aaff', '#fff1a9ff', '#fff1a8ff', '#fff0a7ff', '#fff0a7ff', '#fff0a6ff', '#fff0a5ff', '#ffefa5ff', '#ffefa4ff', '#ffefa3ff', '#ffeea3ff', '#ffeea2ff', '#ffeea1ff', '#ffeea0ff', '#ffeda0ff', '#ffed9fff', '#ffed9eff', '#ffec9eff', '#ffec9dff', '#ffec9cff', '#ffeb9cff', '#ffeb9bff', '#ffeb9aff', '#ffea9aff', '#ffea99ff', '#ffea98ff', '#ffe998ff', '#ffe997ff', '#ffe996ff', '#ffe896ff', '#ffe895ff', '#ffe894ff', '#ffe794ff', '#ffe793ff', '#ffe792ff', '#ffe692ff', '#ffe691ff', '#ffe690ff', '#ffe68fff', '#ffe58fff', '#ffe58eff', '#ffe58dff', '#ffe48dff', '#ffe48cff', '#ffe48bff', '#ffe38bff', '#ffe38aff', '#ffe389ff', '#ffe289ff', '#ffe288ff', '#ffe287ff', '#ffe187ff', '#ffe186ff', '#ffe185ff', '#ffe085ff', '#ffe084ff', '#ffe083ff', '#ffdf83ff', '#ffdf82ff', '#ffdf81ff', '#ffde81ff', '#ffde80ff', '#ffde7fff', '#ffdd7fff', '#ffdd7eff', '#ffdd7dff', '#ffdc7dff', '#ffdc7cff', '#ffdc7bff', '#ffdc7bff', '#ffdb7aff', '#ffdb79ff', '#ffdb78ff', '#ffda78ff', '#ffda77ff', '#ffda76ff', '#fed976ff', '#fed975ff', '#fed874ff', '#fed774ff', '#fed773ff', '#fed672ff', '#fed572ff', '#fed571ff', '#fed470ff', '#fed470ff', '#fed36fff', '#fed26eff', '#fed26eff', '#fed16dff', '#fed06cff', '#fed06cff', '#fecf6bff', '#fecf6aff', '#fece6aff', '#fecd69ff', '#fecd68ff', '#fecc68ff', '#fecb67ff', '#fecb66ff', '#feca66ff', '#feca65ff', '#fec964ff', '#fec864ff', '#fec863ff', '#fec762ff', '#fec662ff', '#fec661ff', '#fec560ff', '#fec45fff', '#fec45fff', '#fec35eff', '#fec35dff', '#fec25dff', '#fec15cff', '#fec15bff', '#fec05bff', '#febf5aff', '#febf59ff', '#febe59ff', '#febe58ff', '#febd57ff', '#febc57ff', '#febc56ff', '#febb55ff', '#feba55ff', '#feba54ff', '#feb953ff', '#feb953ff', '#feb852ff', '#feb751ff', '#feb751ff', '#feb650ff', '#feb54fff', '#feb54fff', '#feb44eff', '#feb44dff', '#feb34dff', '#feb24cff', '#feb24cff', '#feb14bff', '#feb04bff', '#feb04bff', '#feaf4bff', '#feaf4aff', '#feae4aff', '#feae4aff', '#fead4aff', '#feac49ff', '#feac49ff', '#feab49ff', '#feab48ff', '#feaa48ff', '#fea948ff', '#fea948ff', '#fea847ff', '#fea847ff', '#fea747ff', '#fea647ff', '#fea646ff', '#fea546ff', '#fea546ff', '#fea446ff', '#fea345ff', '#fea345ff', '#fea245ff', '#fea245ff', '#fea144ff', '#fea044ff', '#fea044ff', '#fe9f44ff', '#fe9f43ff', '#fe9e43ff', '#fe9d43ff', '#fe9d43ff', '#fe9c42ff', '#fe9c42ff', '#fe9b42ff', '#fe9a42ff', '#fe9a41ff', '#fe9941ff', '#fe9941ff', '#fe9840ff', '#fe9740ff', '#fe9740ff', '#fe9640ff', '#fe963fff', '#fe953fff', '#fe943fff', '#fe943fff', '#fe933eff', '#fe933eff', '#fe923eff', '#fe923eff', '#fe913dff', '#fe903dff', '#fe903dff', '#fe8f3dff', '#fe8f3cff', '#fe8e3cff', '#fe8d3cff', '#fd8d3cff', '#fd8c3bff', '#fd8b3bff', '#fd8a3bff', '#fd883aff', '#fd873aff', '#fd863aff', '#fd853aff', '#fd8439ff', '#fd8339ff', '#fd8239ff', '#fd8138ff', '#fd8038ff', '#fd7f38ff', '#fd7e38ff', '#fd7d37ff', '#fd7c37ff', '#fd7b37ff', '#fd7a36ff', '#fd7936ff', '#fd7836ff', '#fd7736ff', '#fd7635ff', '#fd7535ff', '#fd7435ff', '#fd7334ff', '#fd7234ff', '#fd7134ff', '#fd7033ff', '#fd6f33ff', '#fd6e33ff', '#fd6d33ff', '#fd6c32ff', '#fd6b32ff', '#fd6a32ff', '#fd6931ff', '#fd6831ff', '#fd6731ff', '#fd6631ff', '#fd6530ff', '#fd6430ff', '#fd6330ff', '#fd622fff', '#fd612fff', '#fd602fff', '#fd5f2fff', '#fd5e2eff', '#fd5d2eff', '#fd5c2eff', '#fd5b2dff', '#fd5a2dff', '#fd592dff', '#fd582dff', '#fd572cff', '#fd562cff', '#fd552cff', '#fd542bff', '#fd532bff', '#fd522bff', '#fd512aff', '#fd502aff', '#fd4f2aff', '#fc4e2aff', '#fc4d29ff', '#fc4c29ff', '#fb4b29ff', '#fb4a29ff', '#fa4a29ff', '#fa4928ff', '#fa4828ff', '#f94728ff', '#f94628ff', '#f84527ff', '#f84427ff', '#f84427ff', '#f74327ff', '#f74226ff', '#f64126ff', '#f64026ff', '#f63f26ff', '#f53f26ff', '#f53e25ff', '#f43d25ff', '#f43c25ff', '#f43b25ff', '#f33a24ff', '#f33a24ff', '#f23924ff', '#f23824ff', '#f23724ff', '#f13623ff', '#f13523ff', '#f03523ff', '#f03423ff', '#f03322ff', '#ef3222ff', '#ef3122ff', '#ee3022ff', '#ee3022ff', '#ee2f21ff', '#ed2e21ff', '#ed2d21ff', '#ec2c21ff', '#ec2b20ff', '#ec2b20ff', '#eb2a20ff', '#eb2920ff', '#ea281fff', '#ea271fff', '#ea261fff', '#e9261fff', '#e9251fff', '#e8241eff', '#e8231eff', '#e8221eff', '#e7211eff', '#e7211dff', '#e6201dff', '#e61f1dff', '#e61e1dff', '#e51d1dff', '#e51c1cff', '#e41b1cff', '#e41b1cff', '#e31a1cff', '#e3191cff', '#e2191cff', '#e2181cff', '#e1181cff', '#e0181cff', '#e0171dff', '#df171dff', '#df161dff', '#de161dff', '#dd161dff', '#dd151dff', '#dc151eff', '#dc141eff', '#db141eff', '#da131eff', '#da131eff', '#d9131eff', '#d9121eff', '#d8121fff', '#d7111fff', '#d7111fff', '#d6111fff', '#d5101fff', '#d5101fff', '#d40f20ff', '#d40f20ff', '#d30e20ff', '#d20e20ff', '#d20e20ff', '#d10d20ff', '#d10d21ff', '#d00c21ff', '#cf0c21ff', '#cf0b21ff', '#ce0b21ff', '#ce0b21ff', '#cd0a22ff', '#cc0a22ff', '#cc0922ff', '#cb0922ff', '#ca0922ff', '#ca0822ff', '#c90822ff', '#c90723ff', '#c80723ff', '#c70623ff', '#c70623ff', '#c60623ff', '#c60523ff', '#c50524ff', '#c40424ff', '#c40424ff', '#c30424ff', '#c30324ff', '#c20324ff', '#c10225ff', '#c10225ff', '#c00125ff', '#bf0125ff', '#bf0125ff', '#be0025ff', '#be0026ff', '#bd0026ff', '#bc0026ff', '#bb0026ff', '#ba0026ff', '#b90026ff', '#b80026ff', '#b70026ff', '#b60026ff', '#b50026ff', '#b40026ff', '#b30026ff', '#b20026ff', '#b10026ff', '#b00026ff', '#af0026ff', '#ae0026ff', '#ad0026ff', '#ac0026ff', '#ab0026ff', '#aa0026ff', '#a90026ff', '#a80026ff', '#a70026ff', '#a60026ff', '#a50026ff', '#a40026ff', '#a30026ff', '#a20026ff', '#a10026ff', '#a00026ff', '#9f0026ff', '#9e0026ff', '#9d0026ff', '#9c0026ff', '#9b0026ff', '#9b0026ff', '#9a0026ff', '#990026ff', '#980026ff', '#970026ff', '#960026ff', '#950026ff', '#940026ff', '#930026ff', '#920026ff', '#910026ff', '#900026ff', '#8f0026ff', '#8e0026ff', '#8d0026ff', '#8c0026ff', '#8b0026ff', '#8a0026ff', '#890026ff', '#880026ff', '#870026ff', '#860026ff', '#850026ff', '#840026ff', '#830026ff', '#820026ff', '#810026ff', '#800026ff']);
+    
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.x = d3.scale.linear()
+              .domain([0.0, 1000.0])
+              .range([0, 400]);
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.legend = L.control({position: 'topright'});
+    color_map_59bd54353b9040689f005e35e5fdbf6a.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_59bd54353b9040689f005e35e5fdbf6a.legend.addTo(map_e9b6cde800dd457c8645dc0fbecf9a80);
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.xAxis = d3.svg.axis()
+        .scale(color_map_59bd54353b9040689f005e35e5fdbf6a.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([0.0, 125.0, 250.0, 375.0, 500.0, 625.0, 750.0, 875.0, 1000.0]);
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.g = color_map_59bd54353b9040689f005e35e5fdbf6a.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.g.selectAll("rect")
+        .data(color_map_59bd54353b9040689f005e35e5fdbf6a.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_59bd54353b9040689f005e35e5fdbf6a.x(color_map_59bd54353b9040689f005e35e5fdbf6a.color.domain()[i - 1]) : color_map_59bd54353b9040689f005e35e5fdbf6a.x.range()[0],
+            x1: i < color_map_59bd54353b9040689f005e35e5fdbf6a.color.domain().length ? color_map_59bd54353b9040689f005e35e5fdbf6a.x(color_map_59bd54353b9040689f005e35e5fdbf6a.color.domain()[i]) : color_map_59bd54353b9040689f005e35e5fdbf6a.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 10)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_59bd54353b9040689f005e35e5fdbf6a.g.call(color_map_59bd54353b9040689f005e35e5fdbf6a.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text('COVID-19 death toll per department (Source: opencovid19-fr)');
+</script>
