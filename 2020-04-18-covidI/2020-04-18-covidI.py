@@ -14,6 +14,14 @@ import branca.colormap as cm
 colormap =cm.linear.YlOrRd_09.scale(0, 1000)
 import departements
 
+legend_html = '''
+<div style="position: fixed;
+     padding: .5em; top: 10px; left: 60px; width: 30em; height: 5em;
+     border:2px solid grey; z-index:9999; font-size:14px; background: #eee;
+     "> &nbsp; COVID-19 related deaths for Metropolitan France<br>
+     &nbsp; Data recovered from https://github.com/opencovid19-fr/data  <br>
+</div>
+'''
 
 def download_csv_from_github():
      download_start_time=datetime.datetime.now()
@@ -71,6 +79,7 @@ def create_map():
      CODA.drop_rows_with_missing_info()
      CODA.select_last_date()
      CODA.plot_departments(CODA.merged_data_last,'grey')
+     CODA.map.get_root().html.add_child(folium.Element(legend_html))     
      colormap.caption = 'COVID-19 death toll per department (Source: opencovid19-fr)'
      CODA.map.add_child(colormap)
 
